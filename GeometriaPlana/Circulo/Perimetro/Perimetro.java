@@ -1,9 +1,9 @@
-package GeometriaPlana.Circulo.Circunferencia;
+package GeometriaPlana.Circulo.Perimetro;
 
 import java.util.Scanner;
 
-public class Circunferencia {
-   public static double circunferencia(double r) {
+public class Perimetro {
+   public static double perimetro(double r) {
       return (2*Math.PI*r);
    }
 
@@ -13,7 +13,7 @@ public class Circunferencia {
       try {
          System.out.println("Informe o nÃºmero do raio");
          double raio = in.nextDouble();
-         System.out.println("A area Ã©: " + circunferencia(raio));
+         System.out.println("A area Ã©: " + perimetro(raio));
       } finally {
          in.close();
       }

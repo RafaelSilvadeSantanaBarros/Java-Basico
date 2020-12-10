@@ -11,7 +11,7 @@ public class Area {
    public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
       try {
-         System.out.println("Informe o número do raio");
+         System.out.println("Informe a distância do raio");
          double raio = in.nextDouble();
          System.out.println("A area é: " + area(raio));
       } finally {
