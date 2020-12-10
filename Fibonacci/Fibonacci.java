@@ -18,8 +18,13 @@ public class Fibonacci {
 
    public static void main(String Args[]) {
       Scanner in = new Scanner(System.in);
-      System.out.println("Quer saber o fibonacci de qual n�mero?");
-      int numfib = in.nextInt();
-      System.out.println("A fibonacci é: " + fib(numfib));
+      try {
+         System.out.println("Quer saber o fibonacci de qual n�mero?");
+         int numfib = in.nextInt();
+         System.out.println("A fibonacci é: " + fib(numfib));
+      } finally {
+         in.close();
+      }
+
    }
 }

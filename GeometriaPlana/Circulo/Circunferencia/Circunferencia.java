@@ -1,6 +1,5 @@
 package GeometriaPlana.Circulo.Circunferencia;
 
-import java.math.*;
 import java.util.Scanner;
 
 public class Circunferencia {

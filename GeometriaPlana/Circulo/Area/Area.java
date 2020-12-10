@@ -1,10 +1,10 @@
 package GeometriaPlana.Circulo.Area;
 
-import static java.lang.Math.*;
 import java.util.Scanner;
 
 public class Area {
    public static double area(double r) {
+
       return (Math.PI * (Math.pow(r, 2)));
    }
 

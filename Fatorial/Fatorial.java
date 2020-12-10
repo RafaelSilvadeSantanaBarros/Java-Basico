@@ -1,4 +1,5 @@
 package Fatorial;
+
 import java.util.Scanner;
 
 public class Fatorial {
@@ -16,8 +17,13 @@ public class Fatorial {
 
     public static void main(String Args[]) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Quer saber o fatorial de qual n�mero?");
-        int numfat = in.nextInt();
-        System.out.println("O fatorial �: " + fat(numfat));
+        try {
+            System.out.println("Quer saber o fatorial de qual n�mero?");
+            int numfat = in.nextInt();
+            System.out.println("O fatorial �: " + fat(numfat));
+        } finally {
+            in.close();
+        }
+
     }
 }
