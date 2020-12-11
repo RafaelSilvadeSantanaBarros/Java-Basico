@@ -21,13 +21,13 @@ Math.tan(a);
       Scanner in = new Scanner(System.in);
    
       try {
-         System.out.println("Informe o n�mero de faces laterais");
+         /*System.out.println("Informe o n�mero de faces laterais");
          double qlaterais = in.nextDouble();
          System.out.println("Informe a medida da aresta da base");
          double m = in.nextDouble();
          System.out.println("Informe a altura do prisma");
          double altura = in.nextDouble();
-         System.out.println();  
+         System.out.println(); */
       } finally {
          in.close();
       }
